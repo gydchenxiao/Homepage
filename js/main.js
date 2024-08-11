@@ -49,13 +49,13 @@ window.addEventListener('load', function () {
     // $('.cover').css("cssText", "opacity: 1;transition: ease 1.5s;");
     $('#section').css("cssText", "transform: scale(1) !important;opacity: 1 !important;filter: blur(0px) !important");
 
-    // 用户欢迎
-    iziToast.show({
-        timeout: 2500,
-        icon: false,
-        title: hello,
-        message: '欢迎来到我的主页'
-    });
+    // // 用户欢迎
+    // iziToast.show({
+    //     timeout: 2500,
+    //     icon: false,
+    //     title: hello,
+    //     message: '欢迎来到我的主页'
+    // });
     
 
     // //延迟加载音乐播放器
