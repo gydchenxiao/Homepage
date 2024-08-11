@@ -182,7 +182,7 @@ main {
 }
 
 .main-img img:hover {
-    transform: rotate(358deg);
+    transform: rotate(60deg);
 }
 
 .img-title {
