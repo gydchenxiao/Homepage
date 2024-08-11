@@ -148,7 +148,6 @@ $(document).ready(function () {
             $('#bg').attr('src', pictures[rd]) //随机默认壁纸
             iziToast.show({
                 icon: "fa-solid fa-image",
-                timeout: 2500,
                 message: '壁纸设置成功',
             });
         };
@@ -158,7 +157,6 @@ $(document).ready(function () {
             $('#bg').attr('src', localStorage.getItem('wallpaper_api_1')); //必应每日
             iziToast.show({
                 icon: "fa-solid fa-image",
-                timeout: 2500,
                 message: '壁纸设置成功',
             });
         };
@@ -168,7 +166,6 @@ $(document).ready(function () {
             $('#bg').attr('src', localStorage.getItem('wallpaper_api_2')); //随机风景
             iziToast.show({
                 icon: "fa-solid fa-image",
-                timeout: 2500,
                 message: '壁纸设置成功',
             });
         };
@@ -178,7 +175,6 @@ $(document).ready(function () {
             $('#bg').attr('src', localStorage.getItem('wallpaper_api_3')); //随机动漫
             iziToast.show({
                 icon: "fa-solid fa-image",
-                timeout: 2500,
                 message: '壁纸设置成功',
             });
         };
