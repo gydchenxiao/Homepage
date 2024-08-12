@@ -17,11 +17,11 @@ function setBgImgInit() {
       (g[0] = "./img/background1.webp"),
         (g[1] = "./img/background2.webp"),
         (g[2] = "./img/background3.webp"),
-        (g[3] = "./img/background4.webp"),
-        (g[4] = "./img/background5.webp"),
+        (g[3] = "https://pic.imgdb.cn/item/66b9f627d9c307b7e91b63d9.webp"),
+        (g[4] = "https://pic.imgdb.cn/item/66b9f663d9c307b7e91ba72b.webp"),
         (g[5] = "./img/background6.webp"),
         (g[6] = "./img/background7.webp"),
-        (g[7] = "./img/background8.webp");
+        (g[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
       var i = Math.floor(8 * Math.random());
       $("#bg").attr("src", g[i]);
       break;
@@ -35,7 +35,7 @@ function setBgImgInit() {
       $("#bg").attr("src", "https://api.hanximeng.com/ranimg/api.php");
   }
 }
-var bg_img_preinstall = { type: "1", path: "" };
+var bg_img_preinstall = { type: "1", path: "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp" };
 $(document).ready(function () {
   setBgImgInit(),
     $("#wallpaper").on("click", ".set-wallpaper", function () {
@@ -47,11 +47,11 @@ $(document).ready(function () {
         (i[0] = "./img/background1.webp"),
           (i[1] = "./img/background2.webp"),
           (i[2] = "./img/background3.webp"),
-          (i[3] = "./img/background4.webp"),
-          (i[4] = "./img/background5.webp"),
+          (i[3] = "https://pic.imgdb.cn/item/66b9f627d9c307b7e91b63d9.webp"),
+          (i[4] = "https://pic.imgdb.cn/item/66b9f663d9c307b7e91ba72b.webp"),
           (i[5] = "./img/background6.webp"),
           (i[6] = "./img/background7.webp"),
-          (i[7] = "./img/background8.webp");
+          (i[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
         var e = Math.floor(8 * Math.random());
         $("#bg").attr("src", i[e]), iziToast.show({ message: "壁纸设置成功" });
       }
