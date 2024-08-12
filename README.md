@@ -4,7 +4,7 @@
 >主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.imsyy.top/font/Pacifico-Regular.ttf)
 
 
-- [無名の主页](https://www.imsyy.top)
+- [imssy](https://github.com/imsyy)
 
 ####  功能
 
