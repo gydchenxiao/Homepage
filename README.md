@@ -1,5 +1,5 @@
 
-### imsyy的个人主页3.1.2版本修改
+### imsyy的个人主页3.1.2版本的修改
 
 >主页的 Logo 字体已经过压缩，若用本站 Logo 以外的字母会变回默认字体，这里是 [完整字体](https://file.imsyy.top/font/Pacifico-Regular.ttf)
 
