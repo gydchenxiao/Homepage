@@ -28,60 +28,8 @@
 
 也可自行更换其他方式
 
-<!-- ### 配置
-
-本项目采用 `json` 文件来配置站点内容，该配置不受版本更新影响，可将自定义配置写入 `setting.json` 以更改页面内容
-
-<details>
-<summary>配置说明</summary>
-
-```json
-{
-    "title": "网页标题",
-    "description": "网页简短介绍",
-    "keywords": "网页关键词",
-    "author": "网页作者",
-    "logo_img": "Logo图片路径",
-    "logo_text_1": "域名前缀",
-    "logo_text_2": "域名后缀",
-    "des_title": [
-        "Hello World !", //站点介绍标题
-        "一个建立于 21 世纪的小站，存活于互联网的边缘" //站点介绍内容
-    ],
-    "des_title_change": [
-        "Oops !", //站点介绍标题点击后文字
-        "哎呀，这都被你发现了 ( 再点击一次可关闭 )" //站点介绍内容点击后文字
-    ],
-    "github": "gudong1012", //Github 用户名
-    "qq": "", //QQ
-    "email": "", //Email电子邮件
-    "telegram": "gudong1012", //Telegram 用户名
-    "weather_api": "https://www.yiketianqi.com", //天气 API
-    "link_1": [
-        "https://blog.200310.xyz/", //链接地址
-        "fa-solid fa-blog", //图标类名
-        "博客" //链接文字
-    ],
-    "link_2": [
-        "https://pan.baidu.com/",
-        "fa-solid fa-cloud",
-        "网盘"
-    ],
-    "wallpaper_api": [
-        [
-            "每日一图", //壁纸设置项名称
-            "https://api.dujin.org/bing/1920.php" //壁纸图片链接
-        ]
-    ],
-    "Copyright_year": "2024", 
-    "Copyright_text": "顾东" 
-}
-```
-
-</details> -->
-
 ### 音乐
-
+>可以一首歌一首歌曲导入，name,artist,url,cover
 >本项目采用了基于 `MetingJS` 的 `Aplayer` 音乐播放器，可实现快速自定义歌单  
 >*仅支持 **中国大陆地区**，其他区域请将 [以下内容](https://file.imsyy.top/js/music/music-other.js) 替换 `music.js` 以实现音乐播放器的正常使用
 
