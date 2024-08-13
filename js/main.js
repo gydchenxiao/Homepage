@@ -137,14 +137,15 @@ $('#hitokoto').click(function () {
                 $('#from_text').html(data.from)
             })
             .catch(console.error)
-    } else {
-        iziToast.show({
-            timeout: 1000,
-            icon: "fa-solid fa-circle-exclamation",
-            message: '你点太快了吧'
-        });
-    }
-});
+    } 
+//     else {
+//         iziToast.show({
+//             timeout: 1000,
+//             icon: "fa-solid fa-circle-exclamation",
+//             message: '你点太快了吧'
+//         });
+//     }
+// });
 
 //获取天气
 //请前往 https://www.mxnzp.com/doc/list 申请 app_id 和 app_secret
