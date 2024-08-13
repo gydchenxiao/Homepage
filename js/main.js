@@ -137,13 +137,7 @@ $('#hitokoto').click(function () {
                 $('#from_text').html(data.from)
             })
             .catch(console.error)
-    } else {
-        iziToast.show({
-            timeout: 100,
-            icon: "fa-solid fa-circle-exclamation",
-            message: '你点太快了吧'
-        });
-    }
+    } 
 });
 
 //获取天气
