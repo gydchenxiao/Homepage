@@ -35,7 +35,7 @@ function setBgImgInit() {
       $("#bg").attr("src", "https://api.hanximeng.com/ranimg/api.php");
   }
 }
-var bg_img_preinstall = { type: "1", path: "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp" };
+var bg_img_preinstall = { type: "1", path: "" };
 $(document).ready(function () {
   setBgImgInit(),
     $("#wallpaper").on("click", ".set-wallpaper", function () {
