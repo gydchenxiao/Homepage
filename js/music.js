@@ -36,9 +36,21 @@ const ap = new APlayer({
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
+      name: "雨蝶",
+      artist: "李翊君",
+      url: "https://od.lk/s/OThfNDAyOTcwNTVf/Rain%20butterfly.mp3",
+      cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
+    },
+    {
       name: "永远的奥特曼",
       artist: "Line",
       url: "https://music.163.com/song/media/outer/url?id=1461262038.mp3",
+      cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
+    },
+    {
+      name: "恶作剧",
+      artist: "林雨晨",
+      url: "https://od.lk/s/OThfNDAyOTcwNjRf/mischief.mp3",
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
@@ -122,7 +134,7 @@ const ap = new APlayer({
     {
       name: "像鱼",
       artist: "王贰浪",
-      url: "https://music.163.com/song/media/outer/url?id=14312549.mp3",
+      url: "https://od.lk/s/OThfNDAyOTcwNjNf/like%20fish.mp3",
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
@@ -162,10 +174,16 @@ const ap = new APlayer({
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
-      name: " Baby I'm Sorry",
+      name: "Baby I'm Sorry",
       artist: "MYNAME",
       url: "https://od.lk/s/OThfMzk4OTA2ODJf/baby.mp3",
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
+    },
+    {
+      name: "情深深雨蒙蒙",
+      artist: "赵薇",
+      url: "https://od.lk/s/OThfNDAyOTcwNTdf/Romance%20in%20the%20Rain.mp3",
+       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
       name: "Horizon",
@@ -180,7 +198,7 @@ const ap = new APlayer({
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
-      name: "kill bill",
+      name: "Kill bill",
       artist: "Brown Eyes Girls",
       url: "https://music.163.com/song/media/outer/url?id=27514515.mp3",
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
