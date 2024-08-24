@@ -49,7 +49,7 @@ const ap = new APlayer({
     },
     {
       name: "恶作剧",
-      artist: "林雨晨",
+      artist: "王蓝茵",
       url: "https://od.lk/s/OThfNDAyOTcwNjRf/mischief.mp3",
       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
@@ -182,8 +182,8 @@ const ap = new APlayer({
     {
       name: "情深深雨蒙蒙",
       artist: "赵薇",
-      url: "https://od.lk/s/OThfNDAyOTcwNTdf/Romance%20in%20the%20Rain.mp3",
-       cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
+      url: "https://od.lk/s/OThfNDAzMTQ0MzZf/Romantic%20in%20the%20rain.mp3",
+      cover: "https://pic.imgdb.cn/item/66b4d81ed9c307b7e9509a33.jpg",
     },
     {
       name: "Horizon",
@@ -257,7 +257,7 @@ const ap = new APlayer({
 ap.on("play", function () {
   (music = $(".aplayer-title").text() + $(".aplayer-author").text()),
     iziToast.info({
-      timeout: 8e3,
+      timeout: 5e3,
       iconUrl: "./img/icon/music.png",
       displayMode: "replace",
       message: music,
