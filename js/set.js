@@ -23,7 +23,7 @@ function setBgImgInit() {
       //   (g[6] = "./img/background7.webp"),
       //   (g[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
       // var i = Math.floor(8 * Math.random());
-      $("#bg").attr("src", https://pic.imgdb.cn/item/66d1f3f9d9c307b7e9217fb2.jpg);
+      $("#bg").attr("src", "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
       break;
     case "2":
       $("#bg").attr("src", "https://api.dujin.org/bing/1920.php");
