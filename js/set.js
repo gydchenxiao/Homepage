@@ -13,17 +13,17 @@ function setBgImgInit() {
     ($("input[name='wallpaper-type'][value=" + a.type + "]").click(), a.type)
   ) {
     case "1":
-      var g = new Array();
-      (g[0] = "./img/background1.webp"),
-        (g[1] = "./img/background2.webp"),
-        (g[2] = "./img/background3.webp"),
-        (g[3] = "https://pic.imgdb.cn/item/66b9f627d9c307b7e91b63d9.webp"),
-        (g[4] = "https://pic.imgdb.cn/item/66b9f663d9c307b7e91ba72b.webp"),
-        (g[5] = "./img/background6.webp"),
-        (g[6] = "./img/background7.webp"),
-        (g[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
-      var i = Math.floor(8 * Math.random());
-      $("#bg").attr("src", g[i]);
+      // var g = new Array();
+      // (g[0] = "./img/background1.webp"),
+      //   (g[1] = "./img/background2.webp"),
+      //   (g[2] = "./img/background3.webp"),
+      //   (g[3] = "https://pic.imgdb.cn/item/66b9f627d9c307b7e91b63d9.webp"),
+      //   (g[4] = "https://pic.imgdb.cn/item/66b9f663d9c307b7e91ba72b.webp"),
+      //   (g[5] = "./img/background6.webp"),
+      //   (g[6] = "./img/background7.webp"),
+      //   (g[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
+      // var i = Math.floor(8 * Math.random());
+      $("#bg").attr("src", https://pic.imgdb.cn/item/66d1f3f9d9c307b7e9217fb2.jpg);
       break;
     case "2":
       $("#bg").attr("src", "https://api.dujin.org/bing/1920.php");
