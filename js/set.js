@@ -23,7 +23,7 @@ function setBgImgInit() {
       //   (g[6] = "./img/background7.webp"),
       //   (g[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
       // var i = Math.floor(8 * Math.random());
-      $("#bg").attr("src", "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
+      $("#bg").attr("src", "./img/background8.webp");
       break;
     case "2":
       $("#bg").attr("src", "https://api.dujin.org/bing/1920.php");
@@ -53,7 +53,7 @@ $(document).ready(function () {
         //   (i[6] = "./img/background7.webp"),
         //   (i[7] = "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp");
         // var e = Math.floor(8 * Math.random());
-        $("#bg").attr("src",  "https://pic.imgdb.cn/item/66b9f5afd9c307b7e91ad920.webp"), iziToast.show({ message: "壁纸设置成功" });
+        $("#bg").attr("src",  "./img/background8.webp"), iziToast.show({ message: "壁纸设置成功" });
       }
       "2" === a &&
         (setBgImg(g),
