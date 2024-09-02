@@ -382,13 +382,13 @@ $("#more").hover(function () {
     $('#close').css("display", "none");
 })
 
-// //屏蔽右键
-// document.oncontextmenu = function () {
-//     iziToast.show({
-//         timeout: 2000,
-//         icon: "fa-solid fa-circle-exclamation",
-//         message: '为了浏览体验，本站禁用右键'
-//     });
-//     return false;
-// }
+//屏蔽右键
+document.oncontextmenu = function () {
+    iziToast.show({
+        timeout: 2000,
+        // icon: "fa-solid fa-circle-exclamation",
+        message: ''
+    });
+    return false;
+}
 
