@@ -383,12 +383,8 @@ $("#more").hover(function () {
 })
 
 //屏蔽右键
-document.oncontextmenu = function () {
-    iziToast.show({
-        timeout: 2000,
-        // icon: "fa-solid fa-circle-exclamation",
-        message: ''
-    });
+document.addEventListener('contextmenu', function (event) {
+    event.preventDefault(); // 阻止默认行为
     return false;
-}
+});
 
