@@ -17,7 +17,9 @@
 - [x] 音乐播放器
 - [x] 移动端适配
 * [ ] 站点介绍点击后文字
-
+#### 图标
+[fontAwesome](https://fontawesome.com/)
+bootstrap
 
 #### 天气
 
