@@ -45,11 +45,6 @@ var id = "7452421335"; //封面 ID / 单曲 ID / 歌单 ID
 
 #### 中文字体去除繁体
 
-- 安装 `Python 3.7` 和 `pip`
-- 运行 `pip install fonttools`
-- 下载 [sc_unicode.txt](https://gist.githubusercontent.com/imaegoo/d64e5088b723c2e02c40985f55ff12db/raw/5ebd2ce49418c73459a9dfe050483409306a6c1d/sc_unicode.txt)
-- 运行 `pyftsubset 字体名称.ttf --unicodes-file=sc_unicode.txt`
-
 #### 字体进一步压缩
 
 - 编译安装 `Google woff2`
